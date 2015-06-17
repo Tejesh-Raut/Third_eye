@@ -19,8 +19,8 @@ switch ($action)
 	case "RIGHT":
 		system('sudo python /var/www/right.py');
 		break;
-        case "STOP":
-		system('sudo python /var/www/stop.py');
+        case "OFF":
+		system('sudo python /var/www/off.py');
 		break;
 }
 ?>
